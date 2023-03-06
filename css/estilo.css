@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.logo{
+    margin-top: auto;
+    display: block;
+    margin: auto;
+}
+.container-fluid{
+    background-color: #e6979c;
+    list-style: none;
+    height: 70px;
+}
+
+.navbar-nav li a{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    color: #484646;
+}
+.navbar-nav li a :hover{
+    color: #e6979c;
+    background-color: white;
+}
+
+.contactanos-nav-item{
+    display: flex;
+    align-items: center;
+    background-color: #F5D5D7;
+    color: #e6979c;
+    width: 200px;
+    height: 70px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    Justify-content: center
+}
+.menu-derecha{
+    display: flex;
+    gap: 25px;
+    margin-right: 10px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    text-decoration: none;
+}
+.formulario{
+    /*margin-top: 50px;
+    margin-left: 800px;*/
+    min-width: 320px;
+    max-width: 820px;
+
+}
+.btn {
+    background-color: #e6979c;
+    border: #e6979c;
+}
+
+.me-md-2{
+    background-color: gray;
+}
+.imagen-formulario{
+    min-width: 320px;
+    max-width: 100%;
+  
+    /*margin-left: 65px;
+    margin-top: -255px;*/
+}
+
+
+.con{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.imagen-container{
+    align-self: center;
+}
+@media (max-width: 820px){
+    .imagen-formulario{
+        
+    }
+    .formulario{
+        
+    }
+    .con{
+        display: block;
+        gap: 70px;
+        justify-content: center;
+    }
+}
